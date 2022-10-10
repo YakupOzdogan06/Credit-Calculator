@@ -22,6 +22,9 @@ form.addEventListener("submit", (e) => {
   ) {
     return alert("insert all values");
   }
+  if (amount.value == 0 || installment.value == 0) {
+    return alert("enter a value");
+  }
 
   if (select.value == "Housing Loan" && confirm("are you sure?")) {
     interestRate = 1.29;
