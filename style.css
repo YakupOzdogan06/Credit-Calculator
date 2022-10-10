@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #ffc107;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 40rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+select#kredihesap {
+  width: 40rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 41rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+table {
+  margin: auto;
+  border: 2px solid black;
+  font-size: 2rem;
+}
+table th {
+  border: 1px solid black;
+}
+table td {
+  border: 1px solid black;
+}

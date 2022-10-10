@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan Calculator Tool</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="header">Loan Calculator</h1>
+
+    <form action="#" id="form1">
+      <label for="kredihesap">Type of Loan:</label> <br />
+      <select name="kredihesap" id="kredihesap">
+        <option id="seç" value="Seciniz" required>Seciniz</option>
+        <option id="konut" value="Housing Loan">Housing Loan</option>
+        <option id="kişisel" value="Personal Finance Loan">
+          Personal Finance Loan
+        </option>
+
+        <option value="Car Loan" id="araç">Car Loan</option>
+      </select>
+      <br /><br />
+      <label for="installment">Amount of Installment:</label> <br />
+      <input type="number" name="number" id="installment" min="0" />
+      <br /><br />
+      <label for="amount">Amount:</label> <br />
+      <input type="number" id="amount" min="0" />
+      <br /><br />
+
+      <button id="button">Calculate</button>
+    </form>
+
+    <div>
+      <h2 id="h2"></h2>
+      <table id="tablo"></table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
